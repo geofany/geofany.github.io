@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Biodata Dosen</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+
+	<div class="container">
+<a href="admin.html"><span class="closebtn" title="Tutup">×</span></a>
+	<div>
+		<h1>INSERT BIODATA DOSEN</h1>
+	</div>
+
+	<div>
+		<h4>Tanda (<font color="red">*</font>) Wajib Diisi!!</h4>
+	</div>
+
+		<table id="main">
+			<form method="POST">
+				<tr id="main">
+					<td id="main">
+						<label for="fakultas" id="main"><b>Fakultas</b> <font color="red">*</font></label>
+					</td>
+					<td>
+						<select name="fakultas" id="fakultas" id="main" " required="">
+							<option value="">Pilih Fakultas</option>
+							<option value="">Fakultas Ilmu Budaya</option>
+							<option value="">Fakultas Keguruan Dan Ilmu Pendidikan</option>
+							<option value="">Fakultas Hukum</option>
+							<option value="">Fakultas Ekonomi Dan Bisnis</option>
+							<option value="">Fakultas Ilmu Sosial dan Ilmu Politik</option>
+							<option value="">Fakultas Pertanian</option>
+							<option value="">Fakultas Kedokteran Gigi</option>
+							<option value="">Fakultas Teknologi Pertanian</option>
+							<option value="">Fakultas Matematika dan Ilmu Pengetahuan Alam</option>
+							<option value="">Fakultas Teknik</option>
+							<option value="">Fakultas Kedokteran</option>
+							<option value="">Fakultas Kesehatan Masyarakat</option>
+							<option value="">Fakultas Farmasi</option>
+							<option value="">Fakultas Keperawatan</option>
+							<option value="">Fakultas Ilmu Komputer</option>
+						</select>
+					</td>
+
+				</tr>
+				<tr>
+					<td>
+						<label for="prodi"><b>Program Studi</b> <font color="red">*</font></label>
+					</td>
+					<td>
+						<select name="prodi" id="second" style="width: 100%;" required>
+							<option value="">Pilih Program Studi</option>
+							<option value="">Sistem Informasi</option>
+							<option value="">Teknologi Informasi</option>
+							<option value="">Informatika</option>
+						</select>
+					</td>
+
+				</tr>
+				<tr>
+					<td>
+
+					</td>
+					<td align="center">
+						<b><i>Gelar Depan</i></b>
+					</td>
+					<td align="center" style="width: 320px;">
+						<b><i>Nama <font color="red">*</font></i></b>
+					</td>
+					<td align="center" style="width: 320px;">
+						<b><i>Gelar Belakang</i></b>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="nama" style="width: 98%;"><b>Nama Dosen</b></label>
+					</td>
+
+					<td>
+						<input type="text" name="gelardpn" id="gelardpn" maxlength="10" size="5" style="width: 98%;">
+					</td>
+					<td>
+						<input type="text" name="nama" id="nama" maxlength="40" size="20" style="width: 98%;" required>
+					</td>
+					<td>
+						<input type="text" name="gelarblkng" id="gelarblkng" maxlength="10" size="5" style="width: 98%;">
+					</td>
+				</tr>
+				<tr> 
+					<td>
+						<label for="gelar" style="width: 98%;"><b>Gelar Tertinggi</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<input type="text" name="gelar" id="gelar" maxlength="10" size="5" style="width: 98%;" required>
+					</td>
+				</tr>
+				<tr>
+					<td style="width: 250px;">
+						<label for="perguruan"><b>Perguruan Tinggi Pemberi Gelar</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<input type="text" name="perguruan" maxlength="50" size="25" style="width: 98%;" required>
+					</td>
+
+				</tr>
+				<tr>
+					<td>
+						<label for="nip" style="width: 98%;"><b>NIP</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<input type="text" name="nip" id="nip" style="width: 98%;" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="ktp" style="width: 98%;"><b>Nomor KTP</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<input type="text" name="ktp" id="ktp" maxlength="16" size="5" style="width: 98%;" required>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="hp" style="width: 98%;"><b>Nomor HP</b><font color="red">*</font></label></td>
+					<td>
+						<input type="text" name="hp" id="hp" maxlength="13" size="5" style="width: 98%;" required>	
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="mail" style="width: 98%;"><b>Email</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<input type="email" name="mail" id="mail" required pattern=".+@.+.com" style="width: 98%;" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="tmptlahir"><b>Tempat Lahir</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<select name="propinsi" id="tmptlahir" style="width: 100%;" required>
+							<option value="">Pilih Propinsi</option>
+							<option value="">Jawa Timur</option>
+							<option value="">Jawa Barat</option>
+							<option value="">Jawa Tengah</option>
+							<option value="">Sumatra Utara</option>
+							<option value="">Sumatra Selatan</option>
+							<option value="">Bali</option>
+							<option value="">Nusa Tenggara Timur</option>
+							<option value="">Nusa Tenggara Barat</option>
+							<option value="">Kalimantan Timur</option>
+							<option value="">Kalimantan Selatan</option>
+							<option value="">Kalimantan Utara</option>
+							<option value="">Kalimantan Barat</option>
+						</select>
+					</td>
+					<td>
+						<select name="kota" id="tmptlahir" style="width: 100%;" required>
+							<option value="">Pilih Kota</option>
+							<option value="">Banyuwangi</option>
+							<option value="">Jember</option>
+							<option value="">Situbondo</option>
+							<option value="">Bondowoso</option>
+							<option value="">Lumajang</option>
+							<option value="">Probolinggo</option>
+							<option value="">Sidoarjo</option>
+							<option value="">Malang</option>
+							<option value="">Surabaya</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="tgllahir"><b>Tanggal Lahir</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<input type="date" name="tgllahir" required pattern="date" style="width: 98%;" required>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<label for="gender"><b>Jenis Kelamin</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<input type="radio" name="gender" id="gender" value="male" required>Laki-Laki 
+						<input type="radio" name="gender" id="gender" value="female">Perempuan
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="status"><b>Status Kepegawaian</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<select name="status" id="status" style="width: 100%;" required>
+							<option value="">Pilih Status Pegawai</option>
+							<option value="">PNS</option>
+							<option value="">Swasta</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="ikatan"><b>Ikatan Kerja</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<select name="ikatan" id="ikatan" style="width: 100%;" required>
+							<option value="">Pilih Ikatan Kerja</option>
+							<option value="">Terikat</option>
+							<option value="">Kedinasan</option>
+							<option value="">Tidak Terikat</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="golongan"><b>Golongan/Pangkat</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<select name="golongan" id="golongan" style="width: 100%;" required>
+							<option value="">Pilih Golongan</option>
+							<option value="">1A</option>
+							<option value="">1B</option>
+							<option value="">1C</option>
+							<option value="">1D</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="jabatan"><b>Jabatan Akademik</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<select name="jabatan" id="jabatan" style="width: 100%;" required>
+							<option value="">Pilih Jabatan Akademik</option>
+							<option value="">Rektor</option>
+							<option value="">Wakil Rektor</option>
+							<option value="">Dekan</option>
+							<option value="">Wakil Dekan</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="pendidikan"><b>Pendidikan Tertinggi</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<select name="pendidikan" id="pendidikan" style="width: 100%;" required>
+							<option value="">Pilih Pendidikan Tertinggi</option>
+							<option value="">Sarjana</option>
+							<option value="">Maestro</option>
+							<option value="">Doktor</option>
+							<option value="">Profesor</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="kerja"><b>Status Kerja</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<select name="kerja" id="kerja" style="width: 100%;" required>
+							<option value="">Pilih Status Kerja</option>
+							<option value="">Magang</option>
+							<option value="">Pegawai Kontrak</option>
+							<option value="">Pegawai Tetap</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="ilmu"><b>Bidang Ilmu</b><font color="red">*</font></label>
+					</td>
+					<td>
+						<input type="text" name="ilmu" id="ilmu" style="width: 98%;" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="kepakaran"><b>Bidang Kepakaran</b></label>
+					</td>
+					<td>
+						<select name="kepakaran1" id="kepakaran" style="width: 100%;">
+							<option value="">Pilih....</option>
+						</select>
+					</td>
+					<td>
+						<select name="kepakaran2" id="kepakaran" style="width: 100%;">
+							<option value="">Pilih....</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="akta"><b>Akta Mengajar</b></label>
+					</td>
+					<td>
+						<input type="radio" id="akta" name="akta" value="yes">Ya 
+						<input type="radio" id="akta" name="akta" value="no">Tidak
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="ijin"><b>Ijin Mengajar</b></label>
+					</td>
+					<td>
+						<input type="radio" id="ijin" name="ijin" value="yes">Ya 
+						<input type="radio" id="ijin" name="ijin" value="no">Tidak
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="kode"><b>Kode Instansi Induk</b></label>
+					</td>
+					<td>
+						<input type="text" name="kode" id="kode" style="width: 100%;">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="nidn"><b>NIDN</b></label>
+					</td>
+					<td>
+						<input type="text" name="nidn" id="nidn" style="width: 100%;">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="sertifikat"><b>Nomer Sertifikat</b></label>
+					</td>
+					<td>
+						<input type="text" name="sertifikat" id="sertifikat" style="width: 100%;">
+					</td>
+				</tr>
+				<tr>
+
+				</tr>
+				<tr>
+					<td>
+
+					</td>
+					<td>
+						<button type="submit" onclick="simpan()" style="width: 49.3%;"><b>Kirim</b></button>
+						<button type="reset" style="width: 49.3%;"><b>Reset</b></button>
+					</td>
+				</tr>
+			</form>
+		</table>
+	</div>
+</body>
+</html>
