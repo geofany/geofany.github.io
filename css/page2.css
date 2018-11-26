@@ -1,0 +1,214 @@
+.mid{
+	margin-top: -16px;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+.tabnya h1 {
+	font-family: open Sans;
+	font-style: bold, italic;
+	text-align: center;
+}
+
+h2{
+	padding-top: 350px;
+	color: #F8ED56;
+	text-align: center;
+	font-size: 19px;
+	font-family: Open Sans;
+
+}
+h3{
+	margin-top: -20px;
+	color: #FFFF;
+	text-align: center;
+	font-style: italic;
+	font-family: Source Sans Pro;
+	font-size: 51px;
+}
+
+
+.tabs {
+	list-style: none;
+
+}
+
+.tabs li{
+	display: inline;
+}
+
+.tabs li a {
+	color: white;
+	font-family: Open Sans;
+	font-size: 23px;
+	float: right;
+	margin-top: 60px;
+	margin-right: 150px;
+	display: block;
+
+}
+
+.tabs li a:hover{
+	cursor:pointer;
+  color:  #002446;
+}
+
+.tabs li a:focus {
+  color: red;
+}
+
+.group:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+
+}
+
+.box-wrap {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 15px;
+	color: black;
+}
+
+.tabbed-area div div {
+	background: #E4E4E4;
+	height: 500px;
+	position: absolute;
+	border-radius: 15px;
+	top: -1px;
+	left: 0;
+	width: 100%;
+/*	opacity: 0.8;*/
+	/*background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.5);*/
+}
+
+
+#pimpinan:target, #sejarah:target, #visimisi:target, #tujuan:target{
+  z-index: 1;
+}
+
+.tabnya h4 {
+	margin-top: -60px;
+	color: white;
+	font-family: Source Sans Pro;
+	font-size: 36px;
+	font-style: italic;
+
+}
+
+.overlays {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    z-index: 52;
+}
+
+.overlays-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+
+    z-index: 52;
+}
+
+.overlays input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+    z-index: 52
+}
+
+.overlays input[type=text]:hover {
+    background: #f1f1f1
+    z-index: 52
+;}
+
+.overlays button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    z-index: 52
+}
+
+.overlays button:hover {
+    background: #bbb;
+    z-index: 52
+}
+
+.ppbd {
+	position: absolute;
+	left: 0;
+	margin-left: 250px;
+	margin-top: 40px;
+}
+
+.bd {
+	margin-top: -250px;
+	color: white;
+}
+
+.tbl {
+	margin-top: 50px;
+	border : 1;
+	margin-left: 200px;
+	width: 40%;
+	text-align: left;
+	color: white;
+}
+
+.tabnya p {
+    font-family: Open Sans;
+    font-size: 20px;
+    color: black;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.tabb table {
+    width: 100%;
+}
+
+.next {
+	position: absolute;
+	right: 0;
+	margin-top: -150px;
+	margin-right: 10px;
+}
+
+.back {
+	position: absolute;
+	left: 0;
+	margin-top: -150px;
+	margin-left: 10px;
+}
+
+.backt {
+	position: absolute;
+	left: 0;
+	margin-top: 32px;
+	margin-left: 10px;
+}

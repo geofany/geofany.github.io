@@ -1,0 +1,23 @@
+.satu {
+  padding-top: 10px;
+  height: 100%;
+  width: 100%;
+  background-color: #0000004f;
+}
+
+.satu h2 {
+    padding-top: 400px;
+    color: #F8ED56;
+    text-align: center;
+    font-size: 100%;
+    font-family: Open Sans;
+}
+
+.satu h3 {
+    margin-top: -20px;
+    color: #FFFF;
+    text-align: center;
+    font-style: italic;
+    font-family: Source Sans Pro;
+    font-size: 350%;
+}
