@@ -3,10 +3,10 @@ function openTab(mid) {
 
 	var x = document.getElementsByClassName("tabnya");
 	for (i = 0; i < x.length; i++) {
-		x[i].style.display = "none";  
+		x[i].style.display = "none";
 	}
 
-	document.getElementById(mid).style.display = "block";  
+	document.getElementById(mid).style.display = "block";
 
 }
 
@@ -15,10 +15,10 @@ function openTabs(bot) {
 
 	var x = document.getElementsByClassName("tabnyaa");
 	for (i = 0; i < x.length; i++) {
-		x[i].style.display = "none";  
+		x[i].style.display = "none";
 	}
 
-	document.getElementById(bot).style.display = "block";  
+	document.getElementById(bot).style.display = "block";
 
 }
 

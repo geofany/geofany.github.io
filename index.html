@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<title>Universitas Jember</title>
   <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-  <script type="text/javascript" src="js/scroll.js"></script>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+	<script type="text/javascript" src="js/scroll.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/page2.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -268,12 +269,12 @@
 	    <section class="page2" id="page2">
 
 				<div class="mid" id="mid">
-					<div class="tabbed-area" >
+					<div class="taba" >
 						<ul class="tabs group" >
-							<li><a onclick="openTab('tujuan')">TUJUAN</a></li>
+							<li><a onclick="openTab('tujuan')" class="tepi">TUJUAN</a></li>
 							<li><a onclick="openTab('visimisi')">VISI & MISI</a></li>
 							<li><a onclick="openTab('sejarah')">SEJARAH</a></li>
-							<li><a onclick="openTab('pimpinan')" id="defaultOpen">PIMPINAN</a></li>
+							<li><a  id="defaultOpenMid" onclick="openTab('pimpinan')">PIMPINAN</a></li>
 						</ul>
 						<div class="box-wrap">
 							<div id="tujuan" class="tabnya">
@@ -410,13 +411,12 @@
       </section>
 
 	    <section class="page3" id="page3">
-	      <div class="page_container">
 					<div class="bot" id="bot" >
 						<div class="tabbed-area" >
 							<ul class="tabs group" >
 								<li><a onclick="openTabs('fungsi')">FUNGSI</a></li>
 								<li><a onclick="openTabs('tugas')">TUGAS</a></li>
-								<li><a onclick="openTabs('organisasi')">ORGANISASI</a></li>
+								<li><a id="defaultOpenBot" onclick="openTabs('organisasi')">ORGANISASI</a></li>
 							</ul>
 							<div class="box-wrap">
 								<div id="fungsi" class="tabnyaa">
@@ -453,10 +453,6 @@
 						</div>
 
 					</div>
-
-
-  	      </div>
-  	    </div>
       </section>
 
     </div>
@@ -469,6 +465,15 @@
    });
 	</script>
 
+	<script>
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpenMid").click();
+	</script>
+
+	<script>
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpenBot").click();
+	</script>
 
 </body>
 </html>

@@ -45,7 +45,7 @@ h3{
 	font-size: 23px;
 	float: right;
 	margin-top: 60px;
-	margin-right: 150px;
+	margin-right: 15%;
 	display: block;
 
 }
@@ -69,25 +69,43 @@ h3{
 
 }
 
+.tabnya {
+	text-align: justify;
+	background-color: #f5f5f5;
+	color: black;
+	width: 88%;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 450px;
+    border-radius: 10px;
+	background-color: rgb(228,228,228);
+    background-color: rgba(228,228,228, 0.8);
+}
+
 .box-wrap {
 	position: relative;
 	margin: 0 auto;
 	width: 80%;
 	border-radius: 15px;
 	color: black;
+
 }
 
-.tabbed-area div div {
+.tabbed-area .box-wrap .tabnya {
 	background: #E4E4E4;
-	height: 500px;
+	height: auto;
 	position: absolute;
 	border-radius: 15px;
-	top: -1px;
+	top: 38px;
 	left: 0;
 	width: 100%;
-/*	opacity: 0.8;*/
-	/*background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.5);*/
+	opacity: 0.8;
+	background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.5);
 }
 
 
