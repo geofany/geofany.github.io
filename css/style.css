@@ -5,6 +5,7 @@
   #container {
 
     height: 100vw;
+    width: 100%;
 
     -webkit-transform: rotate(90deg);
 
@@ -125,5 +126,5 @@ background-size: cover;
 }
 
 .tepi {
-  padding-right: 50px;
+  padding-right: 6%;
 }
