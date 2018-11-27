@@ -20,7 +20,7 @@
 	<style media="screen">
 	</style>
 </head>
-<body>
+<body id="container">
 
 	<!-- Struktur -->
 	<div id="struktur" class="overlays">
@@ -378,16 +378,16 @@
 										<table>
 											<tr align="center">
 												<td>
-													<img onclick="openRektor('rektor')" src="img/rektor.jpg">
+													<img class="rimg" onclick="openRektor('rektor')" src="img/rektor.jpg">
 												</td>
 												<td>
-													<img onclick="openWrektor1('wrektor1')" src="img/wrektor1.jpg">
+													<img class="rimg" onclick="openWrektor1('wrektor1')" src="img/wrektor1.jpg">
 												</td>
 												<td>
-													<img onclick="openWrektor2('wrektor2')" src="img/wrektor2.jpg">
+													<img class="rimg" onclick="openWrektor2('wrektor2')" src="img/wrektor2.jpg">
 												</td>
 												<td>
-													<img onclick="openWrektor3('wrektor3')" src="img/wrektor3.jpg">
+													<img class="rimg" onclick="openWrektor3('wrektor3')" src="img/wrektor3.jpg">
 												</td>
 											</tr>
 											<tr align="center" class="bold">
@@ -414,7 +414,7 @@
 					<div class="bot" id="bot" >
 						<div class="tabbed-area" >
 							<ul class="tabs group" >
-								<li><a onclick="openTabs('fungsi')">FUNGSI</a></li>
+								<li><a onclick="openTabs('fungsi')" class="tepi" >FUNGSI</a></li>
 								<li><a onclick="openTabs('tugas')">TUGAS</a></li>
 								<li><a id="defaultOpenBot" onclick="openTabs('organisasi')">ORGANISASI</a></li>
 							</ul>
