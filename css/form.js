@@ -112,3 +112,7 @@ function input() {
 
 	alert("Data Berhasil Disimpan!");
 }
+
+function logout() {
+    location.href = "login.html";
+}
