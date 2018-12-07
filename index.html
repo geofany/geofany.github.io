@@ -1,479 +1,473 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-	<meta charset="utf-8">
-	<title>Universitas Jember</title>
-  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<link rel="shortcut icon" type="image/png" href="img/favicon.ico">
-	<script type="text/javascript" src="js/scroll.js"></script>
-	<script type="text/javascript" src="js/menu.js"></script>
-	<script type="text/javascript" src="js/page2.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/scroll.css">
-	<link rel="stylesheet" type="text/css" href="css/menu.css">
-	<link rel="stylesheet" type="text/css" href="css/search.css">
-	<link rel="stylesheet" type="text/css" href="css/login.css">
-	<link rel="stylesheet" type="text/css" href="css/icon.css">
-	<link rel="stylesheet" type="text/css" href="css/page1.css">
-	<link rel="stylesheet" type="text/css" href="css/page2.css">
-	<link rel="stylesheet" type="text/css" href="css/page3.css">
-	<style media="screen">
-	</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Universitas Jember</title>
+    <meta name="author" content="Perancangan Website - TI" />
+    <meta name="description" content="Struktur Organisasi UNEJ." />
+    <meta name="keywords"  content="UNEJ,Struktur,Organisasi,Visi,Misi" />
+    <meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script type="text/javascript" src="js/fullpage.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
-<body id="container">
+<body>
 
-	<!-- Struktur -->
-	<div id="struktur" class="overlays">
-		<span class="closebtns" onclick="closeStruktur()" title="Tutup">×</span>
-			<img class="strukturd cont" src="img/struktur.jpg">
-	</div>
+  <div class="logo">
+    <a href="#firstPage"><img src="img/logo.png"></a>
+  </div>
 
-		<!-- Menu -->
-		<a href="#" onclick="myTop(this)"><img class="logo-img" src="img/logo.png"></a>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <input class="test" type="text" name="search" placeholder="&#9906; Search..">
+    <a href="#firstPage" style="padding-top: 25px;">Beranda</a>
+    <a href="#secondPage">Tentang</a>
+    <a href="#3rdPage">Organisasi</a>
+    <a href="#">|</a>
+    <a href="login.html">Login</a>
+  </div>
 
-		<div class="container" onclick="myFunction(this)">
-		  <div class="bar1"></div>
-		  <div class="bar2"></div>
-		  <div class="bar3"></div>
-		</div>
-
-		<div class="searchbox">
-			<div class="search">
-
-				<div>
-					<input type="text" placeholder=" Cari sesuatu . . ." required>
-				</div>
-			</div>
-		</div>
-
-		<div class="loginbox">
-			<a class="icono-signIn" href="login.html"></a>
-		</div>
-		<!-- End Menu -->
+  <div id="mySidenav2" class="sidenav2">
+    <a href="javascript:void(0)" class="closebtn2" onclick="closePic()">&times;</a>
+    <img src="img/struktur.jpg" alt="">
+  </div>
 
 
 
-		<!-- MENU OVERLAYS -->
-		<div id="myMenu" class="overlay">
-			<div class="overlay-content">
-					<a href="#" onclick="myOne(this)"><h4>Beranda</h4></a>
-					<br>
-					<br>
-					<a href="#" onclick="myTwo(this)"><h4>Tentang</h4></a>
-					<br>
-					<br>
-					<a href="#" onclick="myThree(this)"><h4>Organisasi</h4></a>
-			</div>
-		</div>
-
-		<div id="rektor" class="overlays">
-					<span class="closebtn" onclick="closeRektor()" title="Tutup">×</span>
-					<div class="overlays-content">
-						<h1 class="bd">Profil Drs. Moh. Hasan, M.Sc, Ph.D</h1>
-						<center>
-							<img class="ppbd" src="img/rektor.jpg">
-							<table class="tbl">
-								<tr>
-									<td>Nama</td>
-									<td>Drs. Moh. Hasan, M.Sc, Ph.D</td>
-								</tr>
-								<tr>
-									<td>NIDN/NUP</td>
-									<td>0004046404</td>
-								</tr>
-								<tr>
-									<td>Perguruan Tinggi</td>
-									<td>Universitas Jember</td>
-								</tr>
-								<tr>
-									<td>Program Studi</td>
-									<td>Matematika-S2</td>
-								</tr>
-								<tr>
-									<td>Jenis Kelamin</td>
-									<td>Laki-laki</td>
-								</tr>
-								<tr>
-									<td>Jabatan Fungsional</td>
-									<td>Lektor Kepala</td>
-								</tr>
-								<tr>
-									<td>Pendidikan Tertinggi</td>
-									<td>S-3</td>
-								</tr>
-								<tr>
-									<td>Status Ikatan Kerja</td>
-									<td>Dosen Tetap</td>
-								</tr>
-								<tr>
-									<td>Status Aktifitas</td>
-									<td>Aktif Mengajar</td>
-								</tr>
-							</table>
-						</center>
-					</div>
-				</div>
-				<div id="wrektor1" class="overlays">
-					<span class="closebtn" onclick="closeWrektor1()" title="Tutup">×</span>
-					<div class="overlays-content">
-						<h1 class="bd">Profil Drs. Zulfikar, Ph.D.</h1>
-						<center>
-							<img class="ppbd" src="img/wrektor1.jpg">
-							<table class="tbl">
-								<tr>
-									<td>Nama</td>
-									<td>Drs. Zulfikar, Ph.D.</td>
-								</tr>
-								<tr>
-									<td>NIDN/NUP</td>
-									<td>0012106308</td>
-								</tr>
-								<tr>
-									<td>Perguruan Tinggi</td>
-									<td>Universitas Jember</td>
-								</tr>
-								<tr>
-									<td>Program Studi</td>
-									<td>Kimia S-1</td>
-								</tr>
-								<tr>
-									<td>Jenis Kelamin</td>
-									<td>Laki-laki</td>
-								</tr>
-								<tr>
-									<td>Jabatan Fungsional</td>
-									<td>Lektor Kepala</td>
-								</tr>
-								<tr>
-									<td>Pendidikan Tertinggi</td>
-									<td>S-3</td>
-								</tr>
-								<tr>
-									<td>Status Ikatan Kerja</td>
-									<td>Dosen Tetap</td>
-								</tr>
-								<tr>
-									<td>Status Aktifitas</td>
-									<td>Aktif Mengajar</td>
-								</tr>
-							</table>
-						</center>
-					</div>
-				</div>
-				<div id="wrektor2" class="overlays">
-					<span class="closebtn" onclick="closeWrektor2()" title="Tutup">×</span>
-					<div class="overlays-content">
-						<h1 class="bd">Profil Drs. Wachju Subchan, MS., PhD.</h1>
-						<center>
-							<img class="ppbd" src="img/wrektor2.jpg">
-							<table class="tbl">
-								<tr>
-									<td>Nama</td>
-									<td>Drs. Wachju Subchan, MS., PhD.</td>
-								</tr>
-								<tr>
-									<td>NIDN/NUP</td>
-									<td>0013086303</td>
-								</tr>
-								<tr>
-									<td>Perguruan Tinggi</td>
-									<td>Universitas Jember</td>
-								</tr>
-								<tr>
-									<td>Program Studi</td>
-									<td>Pendidikan Biologi S-1</td>
-								</tr>
-								<tr>
-									<td>Jenis Kelamin</td>
-									<td>Laki-laki</td>
-								</tr>
-								<tr>
-									<td>Jabatan Fungsional</td>
-									<td>Lektor Kepala</td>
-								</tr>
-								<tr>
-									<td>Pendidikan Tertinggi</td>
-									<td>S-3</td>
-								</tr>
-								<tr>
-									<td>Status Ikatan Kerja</td>
-									<td>Dosen Tetap</td>
-								</tr>
-								<tr>
-									<td>Status Aktifitas</td>
-									<td>Aktif Mengajar</td>
-								</tr>
-							</table>
-						</center>
-					</div>
-				</div>
-				<div id="wrektor3" class="overlays">
-					<span class="closebtn" onclick="closeWrektor3()" title="Tutup">×</span>
-					<div class="overlays-content">
-						<h1 class="bd">Profil Prof. Dr. M. Sulthon, M.Pd.</h1>
-						<center>
-							<img class="ppbd" src="img/wrektor3.jpg">
-							<table class="tbl">
-								<tr>
-									<td>Nama</td>
-									<td>Prof. Dr. M. Sulthon, M.Pd.</td>
-								</tr>
-								<tr>
-									<td>NIDN/NUP</td>
-									<td>0004095910</td>
-								</tr>
-								<tr>
-									<td>Perguruan Tinggi</td>
-									<td>Universitas Jember</td>
-								</tr>
-								<tr>
-									<td>Program Studi</td>
-									<td>Pendidikan Guru Sekolah Dasar S-1</td>
-								</tr>
-								<tr>
-									<td>Jenis Kelamin</td>
-									<td>Laki-laki</td>
-								</tr>
-								<tr>
-									<td>Jabatan Fungsional</td>
-									<td>Profesor</td>
-								</tr>
-								<tr>
-									<td>Pendidikan Tertinggi</td>
-									<td>S-3</td>
-								</tr>
-								<tr>
-									<td>Status Ikatan Kerja</td>
-									<td>Dosen Tetap</td>
-								</tr>
-								<tr>
-									<td>Status Aktifitas</td>
-									<td>Aktif Mengajar</td>
-								</tr>
-							</table>
-						</center>
-					</div>
-				</div>
 
 
-    <div class="wrapper">
-	  <div class="main">
+  <div id="menu">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
 
-      <section class="page1" id="page1">
-					<div class="satu">
-						<h2>Selamat Datang di Laman</h2>
-						<h3>UNIVERSITAS JEMBER</h3>
-					</div>
-      </section>
+  <div id="fullpage">
+      <div class="section" id="section0">
 
-	    <section class="page2" id="page2">
 
-				<div class="mid" id="mid">
-					<div class="taba" >
-						<ul class="tabs group" >
-							<li><a onclick="openTab('tujuan')" class="tepi">TUJUAN</a></li>
-							<li><a onclick="openTab('visimisi')">VISI & MISI</a></li>
-							<li><a onclick="openTab('sejarah')">SEJARAH</a></li>
-							<li><a  id="defaultOpenMid" onclick="openTab('pimpinan')">PIMPINAN</a></li>
-						</ul>
-						<div class="box-wrap">
-							<div id="tujuan" class="tabnya">
-								<h1>Tujuan Universitas Jember</h1>
-								<p>
-									Meningkatkan kualitas produk tri darma perguruan tinggi;
+        <div class="home-intro">
+            selamat datang di laman
+            <p>UNIVERSITAS NEGERI JEMBER</p>
+        </div>
 
-									Mengembangkan dan mengimplementasikan hasil-hasil penelitian;
-									<br>
-									Membina dan mengembangkan kehidupan masyarakat akademik;
-									<br>
-									Meningkatkan perilaku kerja dan profesionalisme;
-									<br>
-									Meningkatkan efisiensi dan efektivitas manajemen kelembagaan;
-									<br>
-									Memperluas jaringan kerjasama berdasarkan asas kesetaraan.
-								</p>
 
-							</div>
-							<div id="visimisi" class="tabnya">
-								<h1>VISI Universitas Jember</h1>
-								<p>
-									Menjadi Universitas unggul dalam pengembangan sains, teknologi
-									dan seni berwawasan lingkungan, bisnis, dan pertanian industrial.
-								</p>
-								<h1>
-									MISI Universitas Jember
-								</h1>
 
-								<p>
-									Melaksanakan dan mengembangkan pendidikan akademik, vokasi, dan profesi yang berkualitas dan
-									berwawasan ecotechnopreneurship;
-									<br>
-									Mengembangkan sains, teknologi, dan, seni yang inovatif, berwawasan lingkungan, bisnis,
-									dan, pertanian industrial untuk kesejahteraan mayarakat;
-									<br>
-									Memberdayakan masyarakat agribisnis dengan menerapkan teknologi tepat guna berbasis kearifan lokal;
-									<br>
-									Mengembangkan sistem pengelolaan Universitas yang akuntabel dan bertaraf internasional;
-									<br>
-									Mengembangkan jaringan kerjasama dengan stakesholders dan lembaga lain di dalam dan d luar negeri.
-								</p>
-							</div>
-							<div id="sejarah" class="tabnya">
 
-								<h1>Sejarah Universitas Jember </h1>
-								<p>Cikal bakal Universitas Jember berasal dari gagasan dr. R. Achmad bersama-sama dengan R. Th.
-									Soengedi dan R. M. Soerachman yang bercita-cita mendirikan perguruan tinggi di Jember.
-									Untukmewujudkan cita-cita tersebut pada tanggal 1 April 1957, ketiganya membentuk panitia yang diberi
-									nama Panitia Triumviraat dengan komposisi Ketua dr. R. Achmad; Penulis R. Th. Soengedi, dan Bendahara R.
-								M. Soerachman. </p>
-								<p>
-									Selanjutnya Panitia Triumviraat ini pada tanggal 5 Oktober 1957 membentuk yayasan
-									dengan nama Yayasan universitas Tawang Alun (disahkan dengan Akta Notaris tanggal 8 Maret 1958 Nomor
-									13 di Jember). Yayasan Universitas Tawang Alun inilah yang kemudian mendirikan universitas swasta di
-									Jember dengan nama Universitas Tawang Alun yang kemudian disingkat UNITA.
-								</p>
-								<!-- <div class="next"> -->
-									<img class="next" onclick="openTab('sejarah2')" src="img/panahka.png">
-									<!-- </div> -->
-								</div>
-								<div id="sejarah2" class="tabnya">
+          <div class="videoContainer">
+              <div class="overlayvid"></div>
+              <video loop muted data-autoplay>
+                  <source src="vid/unej.mp4" type="video/mp4">
+              </video>
+          </div>
 
-									<h1>Sejarah Universitas Jember </h1>
-									<p>Dalam perjalanannya, ketiga tokoh tersebut mendapatkan dukungan penuh Bupati Jember
-										saat itu, R. Soedjarwo. Berdasarkan Surat Keputusan Menteri PTIP No. 151 Tahun 1964 tanggal
-										9 Nopember 1964, tentang didirikannya Universitas Negeri di Jember. Usaha tanpa kenal lelah sejak
-										tahun 1957 itu akhirnya berhasil menjadi kenyataan, Universitas Negeri Djember berdiri ! Pada awal
-										berdirinya pada tahun 1964, Universitas Negeri Djember yang disingkat UNED.
-									</p>
-									<p>
-										Memiliki lima fakultas, terdiri dari Fakultas Hukum di Jember, dengan cabangnya di Banyuwangi,
-										Fakultas Sosial dan Politik dan Fakultas Pertanian di Jember, Fakultas Ekonomi dan Fakultas Sastra di
-										Banyuwangi. Dengan rektor pertama dijabat oleh dr. R. Achmad. Kepemimpinan dr. R. Achmad dilanjutkan
-										oleh Letkol. Soedi Harjohoedojo (1967-1969), Letkol. Soetardjo, SH (1969-1978) dan Kol. Drs. H. R. Warsito
-										(1978-1986).
-									</p>
+      </div>
+      <div class="section" id="section1">
 
-									<img class="next" onclick="openTab('sejarah3')"src="img/panahka.png">
-									<img class="back" onclick="openTab('sejarah')" src="img/panahki.png">
+        <div class="tab">
+          <button class="tablinks" onclick="openMenu(event, 'Tujuan')">Tujuan</button>
+          <button class="tablinks" onclick="openMenu(event, 'VS')">Visi & Misi</button>
+          <button class="tablinks" onclick="openMenu(event, 'Sejarah')">Sejarah</button>
+          <button class="tablinks" onclick="openMenu(event, 'Pimpinan')" id="defaultOpen">Pimpinan</button>
+        </div>
 
-								</div>
-								<div id="sejarah3" class="tabnya">
+        <div id="Tujuan" class="tabcontent">
+          <div class="bg">
+            <h3>Tujuan</h3>
+            <p>1.Meningkatkan kualitas produk tri darma perguruan tinggi; Mengembangkan dan mengimplementasikan hasil-hasil penelitian;
+            <br>2.Membina dan mengembangkan kehidupan masyarakat akademik;
+            <br>3.Meningkatkan perilaku kerja dan profesionalisme;
+            <br>4.Meningkatkan efisiensi dan efektivitas manajemen kelembagaan;
+            <br>5.Memperluas jaringan kerjasama berdasarkan asas kesetaraan.</p>
+          </div>
+        </div>
 
-									<h1>Sejarah Universitas Jember </h1>
-									<p>Baru semenjak tahun 1986, rektor Universitas Jember dijabat oleh sivitas akademika-nya sendiri,
-										yakni oleh Prof. Dr. Simanhadi Widyaprakosa (1986-1995), Prof. Dr. Kabul Santoso, MS (1995-2003),
-										Dr. Ir. T. Sutikto, MSc (2003-2011) dan Drs. Moh. Hasan, Msc Ph.D (2012 sampai sekarang).
-									</p>
+        <div id="VS" class="tabcontent">
+          <div class="bg">
+            <h3>Visi</h3>
+            <p>Menjadi Universitas unggul dalam pengembangan sains, teknologi dan seni berwawasan lingkungan, bisnis, dan pertanian industrial.</p>
+            <br>
+            <h3>Misi</h3>
+            <p>1.Melaksanakan dan mengembangkan pendidikan akademik, vokasi, dan profesi yang berkualitas dan berwawasan ecotechnopreneurship.
+                <br>2.Mengembangkan sains, teknologi, dan, seni yang inovatif, berwawasan lingkungan, bisnis, dan, pertanian industrial untuk kesejahteraan mayarakat.
+                <br>3.Memberdayakan masyarakat agribisnis dengan menerapkan teknologi tepat guna berbasis kearifan lokal.
+                <br>4.Mengembangkan sistem pengelolaan Universitas yang akuntabel dan bertaraf internasional.
+                <br>5.Mengembangkan jaringan kerjasama dengan stakesholders dan lembaga lain di dalam dan d luar negeri.</p>
+          </div>
+          </div>
 
-									<img class="backt" onclick="openTab('sejarah2')" src="img/panahki.png">
-								</div>
-								<div id="pimpinan" class="tabnya">
+        <div id="Sejarah" class="tabcontent">
+          <div class="bg">
+            <h3>Sejarah</h3>
+            <div class="slideshow-container">
 
-									<div class="tabb">
-										<h1>Pimpinan Universitas Jember</h1>
-										<br>
-										<br>
-										<br>
+              <div class="mySlides">
+                <q>Cikal bakal Universitas Jember berasal dari gagasan dr. R. Achmad bersama-sama dengan R. Th. Soengedi dan R. M. Soerachman yang bercita-cita mendirikan perguruan tinggi di Jember. Untukmewujudkan cita-cita tersebut pada tanggal 1 April 1957, ketiganya membentuk panitia yang diberi nama Panitia Triumviraat dengan komposisi Ketua dr. R. Achmad; Penulis R. Th. Soengedi, dan Bendahara R. M. Soerachman.
 
-										<table>
-											<tr align="center">
-												<td>
-													<img class="rimg" onclick="openRektor('rektor')" src="img/rektor.jpg">
-												</td>
-												<td>
-													<img class="rimg" onclick="openWrektor1('wrektor1')" src="img/wrektor1.jpg">
-												</td>
-												<td>
-													<img class="rimg" onclick="openWrektor2('wrektor2')" src="img/wrektor2.jpg">
-												</td>
-												<td>
-													<img class="rimg" onclick="openWrektor3('wrektor3')" src="img/wrektor3.jpg">
-												</td>
-											</tr>
-											<tr align="center" class="bold">
-												<td>Drs. Moh. Hasan, M.Sc, Ph.D</td>
-												<td>Drs. Zulfikar, Ph.D.</td>
-												<td>Drs. Wachju Subchan, MS., PhD.</td>
-												<td>Prof. Dr. M. Sulton, M.Pd.</td>
-											</tr>
-											<tr align="center">
-												<td>Rector</td>
-												<td>Vice Rector</td>
-												<td>Vice Rector II</td>
-												<td>Vice Rector III</td>
-											</tr>
-										</table>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-      </section>
+                    Selanjutnya Panitia Triumviraat ini pada tanggal 5 Oktober 1957 membentuk yayasan dengan nama Yayasan universitas Tawang Alun (disahkan dengan Akta Notaris tanggal 8 Maret 1958 Nomor 13 di Jember). Yayasan Universitas Tawang Alun inilah yang kemudian mendirikan universitas swasta di Jember dengan nama Universitas Tawang Alun yang kemudian disingkat UNITA.</q>
+              </div>
 
-	    <section class="page3" id="page3">
-					<div class="bot" id="bot" >
-						<div class="tabbed-area" >
-							<ul class="tabs group" >
-								<li><a onclick="openTabs('fungsi')" class="tepi" >FUNGSI</a></li>
-								<li><a onclick="openTabs('tugas')">TUGAS</a></li>
-								<li><a id="defaultOpenBot" onclick="openTabs('organisasi')">ORGANISASI</a></li>
-							</ul>
-							<div class="box-wrap">
-								<div id="fungsi" class="tabnyaa">
-									<h1>Fungsi Organisasi Universitas Jember</h1>
-									<p>
-										Melaksanakan dan mengembangkan pendidikan;
-										<br>
-										Melakukan penelitian untuk mengembangkan ilmu pengetahuan dan teknologi;
-										<br>
-										Melaksanakan pelayanan masyarakat;<br>
-										Melaksanakan pembinaan sivitas akademika dan hubungannya dengan lingkungan;
-										<br>
-										Melakukan pelayanan administrasi.
+              <div class="mySlides">
+                <q>Dalam perjalanannya, ketiga tokoh tersebut mendapatkan dukungan penuh Bupati Jember saat itu, R. Soedjarwo. Berdasarkan Surat Keputusan Menteri PTIP No. 151 Tahun 1964 tanggal 9 Nopember 1964, tentang didirikannya Universitas Negeri di Jember. Usaha tanpa kenal lelah sejak tahun 1957 itu akhirnya berhasil menjadi kenyataan, Universitas Negeri Djember berdiri ! Pada awal berdirinya pada tahun 1964, Universitas Negeri Djember yang disingkat UNED.
 
-									</p>
+                    Memiliki lima fakultas, terdiri dari Fakultas Hukum di Jember, dengan cabangnya di Banyuwangi, Fakultas Sosial dan Politik dan Fakultas Pertanian di Jember, Fakultas Ekonomi dan Fakultas Sastra di Banyuwangi. Dengan rektor pertama dijabat oleh dr. R. Achmad. Kepemimpinan dr. R. Achmad dilanjutkan oleh Letkol. Soedi Harjohoedojo (1967-1969), Letkol. Soetardjo, SH (1969-1978) dan Kol. Drs. H. R. Warsito (1978-1986).</q>
 
-								</div>
+              </div>
 
-								<div id="tugas" class="tabnyaa">
-									<h1>Tugas Pokok Universitas Jember</h1>
-									<p>
-										Universitas Jember mempunyai tugas pokok yaitu menyelenggarakan pendidikan tinggi dan memberikan pendidikan berdasarkan kebudayaan bangsa Indonesia dengan cara ilmiah yang meliputi pendidikan, penelitian, dan pengabdian kepada masyarakat untuk mengembangkan kemampuan serta meningkatkan mutu kehidupan dan martabat manusia Indonesia dalam upaya mewujudkan tujuan nasional.
-									</p>
+              <div class="mySlides">
+                <q>Baru semenjak tahun 1986, rektor Universitas Jember dijabat oleh sivitas akademika-nya sendiri, yakni oleh Prof. Dr. Simanhadi Widyaprakosa (1986-1995), Prof. Dr. Kabul Santoso, MS (1995-2003), Dr. Ir. T. Sutikto, MSc (2003-2011) dan Drs. Moh. Hasan, Msc Ph.D (2012 sampai sekarang).</q>
 
-								</div>
+              </div>
 
-								<div id="organisasi" class="tabnyaa">
-									<h1>
-										Struktur Organisasi Univniversitas Jember
-									</h1>
-									<img class="strukturl" onclick="openStruktur('struktur')" src="img/struktur.png">
-								</div>
-							</div>
-						</div>
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
 
-					</div>
-      </section>
+              </div>
 
-    </div>
+              <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
 
-  <script>
-	 onePageScroll(".main", {
-     sectionContainer: "section",
-     loop: true,
-     responsiveFallback: false
-   });
-	</script>
+              <script>
+              var slideIndex = 1;
+              showSlides(slideIndex);
 
-	<script>
-	// Get the element with id="defaultOpen" and click on it
-	document.getElementById("defaultOpenMid").click();
-	</script>
+              function plusSlides(n) {
+                showSlides(slideIndex += n);
+              }
 
-	<script>
-	// Get the element with id="defaultOpen" and click on it
-	document.getElementById("defaultOpenBot").click();
-	</script>
+              function currentSlide(n) {
+                showSlides(slideIndex = n);
+              }
+
+              function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" actives", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " actives";
+              }
+              </script>
+          </div>
+        </div>
+
+        <div id="Pimpinan" class="tabcontent">
+
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="img/r.jpg" alt="">
+                <h3>Drs. Moh. Hasan, M.Sc, Ph.D</h3>
+                <p>Rektor</p>
+                <table class="tb">
+                  <tr>
+  									<td>NIDN/NUP</td>
+  									<td>0004046404</td>
+  								</tr>
+  								<tr>
+  									<td>Perguruan Tinggi</td>
+  									<td>Universitas Jember</td>
+  								</tr>
+  								<tr>
+  									<td>Program Studi</td>
+  									<td>Matematika-S2</td>
+  								</tr>
+  								<tr>
+  									<td>Jenis Kelamin</td>
+  									<td>Laki-laki</td>
+  								</tr>
+  								<tr>
+  									<td>Jabatan Fungsional</td>
+  									<td>Lektor Kepala</td>
+  								</tr>
+  								<tr>
+  									<td>Pendidikan Tertinggi</td>
+  									<td>S-3</td>
+  								</tr>
+  								<tr>
+  									<td>Status Ikatan Kerja</td>
+  									<td>Dosen Tetap</td>
+  								</tr>
+  								<tr>
+  									<td>Status Aktifitas</td>
+  									<td>Aktif Mengajar</td>
+  								</tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="img/w1.jpg" alt="">
+                <h3>Drs. Zulfikar, Ph.D.</h3>
+                <p>Wakil Rektor 1</p>
+                <table>
+                  <tr>
+  									<td>NIDN/NUP</td>
+  									<td>0012106308</td>
+  								</tr>
+  								<tr>
+  									<td>Perguruan Tinggi</td>
+  									<td>Universitas Jember</td>
+  								</tr>
+  								<tr>
+  									<td>Program Studi</td>
+  									<td>Kimia S-1</td>
+  								</tr>
+  								<tr>
+  									<td>Jenis Kelamin</td>
+  									<td>Laki-laki</td>
+  								</tr>
+  								<tr>
+  									<td>Jabatan Fungsional</td>
+  									<td>Lektor Kepala</td>
+  								</tr>
+  								<tr>
+  									<td>Pendidikan Tertinggi</td>
+  									<td>S-3</td>
+  								</tr>
+  								<tr>
+  									<td>Status Ikatan Kerja</td>
+  									<td>Dosen Tetap</td>
+  								</tr>
+  								<tr>
+  									<td>Status Aktifitas</td>
+  									<td>Aktif Mengajar</td>
+  								</tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="img/w2.jpg" alt="">
+                <h3>Drs. Wachju Subchan, MS., PhD.</h3>
+                <p>Wakil Rektor 2</p>
+                <table>
+                  <tr>
+  									<td>NIDN/NUP</td>
+  									<td>0013086303</td>
+  								</tr>
+  								<tr>
+  									<td>Perguruan Tinggi</td>
+  									<td>Universitas Jember</td>
+  								</tr>
+  								<tr>
+  									<td>Program Studi</td>
+  									<td>Biologi S-1</td>
+  								</tr>
+  								<tr>
+  									<td>Jenis Kelamin</td>
+  									<td>Laki-laki</td>
+  								</tr>
+  								<tr>
+  									<td>Jabatan Fungsional</td>
+  									<td>Lektor Kepala</td>
+  								</tr>
+  								<tr>
+  									<td>Pendidikan Tertinggi</td>
+  									<td>S-3</td>
+  								</tr>
+  								<tr>
+  									<td>Status Ikatan Kerja</td>
+  									<td>Dosen Tetap</td>
+  								</tr>
+  								<tr>
+  									<td>Status Aktifitas</td>
+  									<td>Aktif Mengajar</td>
+  								</tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img src="img/w3.jpg" alt="">
+                <h3>Prof. Dr. M. Sulthon, M.Pd.</h3>
+                <p>Wakil Rektor 3</p>
+                <table>
+                  <tr>
+  									<td>NIDN/NUP</td>
+  									<td>0004095910</td>
+  								</tr>
+  								<tr>
+  									<td>Perguruan Tinggi</td>
+  									<td>Universitas Jember</td>
+  								</tr>
+  								<tr>
+  									<td>Program Studi</td>
+  									<td>PDSD S-1</td>
+  								</tr>
+  								<tr>
+  									<td>Jenis Kelamin</td>
+  									<td>Laki-laki</td>
+  								</tr>
+  								<tr>
+  									<td>Jabatan Fungsional</td>
+  									<td>Profesor</td>
+  								</tr>
+  								<tr>
+  									<td>Pendidikan Tertinggi</td>
+  									<td>S-3</td>
+  								</tr>
+  								<tr>
+  									<td>Status Ikatan Kerja</td>
+  									<td>Dosen Tetap</td>
+  								</tr>
+  								<tr>
+  									<td>Status Aktifitas</td>
+  									<td>Aktif Mengajar</td>
+  								</tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="section" id="section2">
+
+        <div class="tab2">
+          <button class="tablinks2" onclick="openMenu2(event, 'Fungsi')">Fungsi</button>
+          <button class="tablinks2" onclick="openMenu2(event, 'Tugas')">Tugas</button>
+          <button class="tablinks2" onclick="openMenu2(event, 'Organisasi')" id="defaultOpen2">Organisasi</button>
+        </div>
+
+          <div id="Organisasi" class="tabcontent2" id="defaultOpen">
+            <div class="bg">
+
+              <div class="row">
+                <div class="column">
+                  <div class="card">
+                      <h3>Organisasi</h3>
+                    <img src="img/struktur.png" alt="Struktur UNEJ" onclick="openPic()">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="Tugas" class="tabcontent2">
+            <div class="bg">
+              <h3>Tugas</h3>
+              <p>Universitas Jember mempunyai tugas pokok yaitu menyelenggarakan pendidikan tinggi dan memberikan pendidikan berdasarkan kebudayaan bangsa Indonesia dengan cara ilmiah yang meliputi pendidikan, penelitian, dan pengabdian kepada masyarakat untuk mengembangkan kemampuan serta meningkatkan mutu kehidupan dan martabat manusia Indonesia dalam upaya mewujudkan tujuan nasional.</p>
+            </div>
+          </div>
+
+          <div id="Fungsi" class="tabcontent2">
+            <div class="bg">
+              <h3>Fungsi</h3>
+              <p>1.Melaksanakan dan mengembangkan pendidikan;
+                <br>2.Melakukan penelitian untuk mengembangkan ilmu pengetahuan dan teknologi;
+                <br>3.Melaksanakan pelayanan masyarakat;
+                <br>4.Melaksanakan pembinaan sivitas akademika dan hubungannya dengan lingkungan;
+                <br>5.Melakukan pelayanan administrasi.</p>
+            </div>
+          </div>
+
+        </div>
+
+  </div>
+
+
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        navigation:true,
+        navigationTooltips: ['Beranda', 'Tentang', 'Organisasi'],
+        showActiveTooltip: false,
+        menu: '#menu'
+    });
+</script>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+    document.getElementById("menu").style.marginLeft = "100%";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    fullpage_api.setAllowScrolling(false);
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("menu").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+    fullpage_api.setAllowScrolling(true);
+
+}
+
+function openPic() {
+    document.getElementById("mySidenav2").style.width = "100%";
+    fullpage_api.setAllowScrolling(false);
+}
+
+function closePic() {
+    document.getElementById("mySidenav2").style.width = "0";
+    fullpage_api.setAllowScrolling(true);
+
+}
+
+</script>
+
+<script>
+function openMenu(evt, menuName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(menuName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<script>
+function openMenu2(evt, menuName2) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent2");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks2");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(menuName2).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen2").click();
+</script>
+
+
 
 </body>
 </html>
